@@ -30,7 +30,11 @@ public class AppTest extends TestCase {
         pass.sendKeys("Cibertec@22");
         driver.findElement(By.xpath("//button[normalize-space()='Ingresar']")).click();
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='MuiBox-root css-2e16le']//table")));
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='MuiBox-root css-2e16le']//table")));
+
+        By tableLocator = By.xpath("//div[@class='MuiBox-root']//table");
+        WebElement tabla = wait.until(ExpectedConditions.visibilityOfElementLocated(tableLocator));
+
 
         int diasProcesados = 0;
 

@@ -10,14 +10,14 @@
     <test name="Test1">
         <parameter name="Parametro1" value="chrome"></parameter>
         <classes>
-            <class name="prueba3.pruebatest3"></class>
+            <class name="pruebatest3"></class>
         </classes>
     </test>
 
     <test name="Test2">
         <parameter name="Parametro1" value="edge"></parameter>
         <classes>
-            <class name="prueba3.pruebatest3"></class>
+            <class name="pruebatest3"></class>
         </classes>
     </test>
 
